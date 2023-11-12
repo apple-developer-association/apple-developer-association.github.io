@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey background for pages */
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Dark grey background for navigation bar */
+    color: white; /* White text color for navigation bar */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+#content {
+    margin-bottom: 60px; /* Adjust margin to leave space for navigation */
+    background-color: #f0f0f0; /* Light grey background for pages */
+}
