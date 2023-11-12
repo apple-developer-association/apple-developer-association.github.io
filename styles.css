@@ -16,11 +16,13 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #333; /* Dark grey background for navigation bar */
-    color: white; /* White text color for navigation bar */
+    color: black; /* Black text color for navigation bar */
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 15px 0; /* Thicker nav bar, padding added */
+    box-shadow: 0px -3px 5px 0px #888888; /* Add a subtle shadow at the bottom */
 }
 
 button {
@@ -28,10 +30,16 @@ button {
     cursor: pointer;
     border: none;
     background: none;
+    color: black; /* Black text color for buttons */
+    border-right: 1px solid #555; /* Add dividing lines between buttons */
+}
+
+button:last-child {
+    border-right: none; /* Remove dividing line for the last button */
 }
 
 #content {
-    margin-bottom: 60px; /* Adjust margin to leave space for navigation */
+    margin-bottom: 80px; /* Adjust margin to leave space for thicker navigation bar */
     background-color: #f0f0f0; /* Light grey background for pages */
     text-align: center; /* Center text */
 }
