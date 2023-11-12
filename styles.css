@@ -33,4 +33,5 @@ button {
 #content {
     margin-bottom: 60px; /* Adjust margin to leave space for navigation */
     background-color: #f0f0f0; /* Light grey background for pages */
+    text-align: center; /* Center text */
 }
